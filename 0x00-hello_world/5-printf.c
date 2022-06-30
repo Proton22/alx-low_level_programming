@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Printing out a functiom
+ *main - Printing out a function
  * Return: 0 if it is correct
  */
 int main(void)
