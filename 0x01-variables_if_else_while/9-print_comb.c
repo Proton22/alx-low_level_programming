@@ -10,7 +10,7 @@ for (g = 0; g <= 9; g++)
 {
 putchar((g % 10) + '0');
 putchar(',');
-putchar(" ");
+putchar(' ');
 }
 putchar('\n');
 return (0);
