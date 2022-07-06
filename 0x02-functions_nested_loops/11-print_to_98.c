@@ -11,6 +11,6 @@ _putchar(n);
 _putchar(',');
 _putchar(' ');
 }
-_purchar('\n');
+_putchar('\n');
 return;
 }
