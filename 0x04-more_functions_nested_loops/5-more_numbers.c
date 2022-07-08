@@ -10,7 +10,7 @@ for (a = 0; a <= 9; a++)
 {
 for (b = 0; b <= 14; b++)
 {
-_putchar(b);
+_putchar(b + '0');
 }
 _putchar('\n');
 }
