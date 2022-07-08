@@ -11,7 +11,7 @@ for (y = 2; x > y; y++)
 {
 while (x % y == 0)
 {
-x = x
+x = x / y;
 }
 }
 printf("%lu", y);
