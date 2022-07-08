@@ -2,6 +2,7 @@
 /**
  * _isupper - print the number
  * Return: 1 if c is uppercase otherwise 0
+ * @c: a character
  */
 int _isupper(int c)
 {
