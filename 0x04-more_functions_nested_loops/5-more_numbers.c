@@ -10,9 +10,9 @@ for (a = 0; a < 10; a++)
 for (b = 0; b < 15; b++)
 {
 if (b >= 10)
-putchar((b / 10) + '0');
-putchar((b % 10) + '0');
+_putchar((b / 10) + '0');
+_putchar((b % 10) + '0');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
