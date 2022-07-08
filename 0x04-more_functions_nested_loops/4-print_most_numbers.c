@@ -11,6 +11,6 @@ if (a != 2 && a != 4)
 {
 _putchar(a + '0');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
