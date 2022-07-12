@@ -6,8 +6,8 @@
  */
 int _strlen(char *s)
 {
-int l = 0;
-whiel (s[l]);
-l++;
-return (l);
+int length = 0;
+whiel (s[length])
+length++;
+return (length);
 }
