@@ -8,8 +8,8 @@
 int _strlen(char *s)
 {
 int l;
-s = "Point";
+s = "Pointless!";
 l = strlen(s);
 _putchar(l);
-return (0);
+return (l);
 }
