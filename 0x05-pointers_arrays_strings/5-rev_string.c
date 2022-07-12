@@ -9,6 +9,6 @@ int n;
 n = 0;
 for (*s = n -1; *s >= 0; s--)
 {
-_putchar(s);
+_putchar(*s);
 }
 }
