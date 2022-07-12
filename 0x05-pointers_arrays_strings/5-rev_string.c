@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * rev_string - print in reverse
- * @s: a character 
+ * @s: a character
  */
 void rev_string(char *s)
 {
@@ -11,7 +11,7 @@ c1 = 0;
 c2 = 0;
 while (s[c1] != '\0')
 c1++;
-c2 = c1 -1;
+c2 = c1 - 1;
 for (c  = 0; c < c1 / 2; c++)
 {
 tmp = s[c];
