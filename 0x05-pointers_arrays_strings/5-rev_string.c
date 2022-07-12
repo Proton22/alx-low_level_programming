@@ -7,7 +7,7 @@ void rev_string(char *s)
 {
 int n;
 n = 0;
-for (*s = n -1; * >= 0; s--)
+for (*s = n -1; *s >= 0; s--)
 {
 _putchar(s);
 }
