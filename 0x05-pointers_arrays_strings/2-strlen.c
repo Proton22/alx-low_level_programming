@@ -7,9 +7,8 @@
  */
 int _strlen(char *s)
 {
-int l;
-s = "Pointless!";
-l = strlen(s);
-_putchar(l);
+int l = 0;
+whiel (s[l]);
+l++;
 return (l);
 }
