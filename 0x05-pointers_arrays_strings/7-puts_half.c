@@ -15,7 +15,7 @@ if ( fir % 2 == 1)
 else
 {
 mid = fir / 2;
-for (len = mid; len < mid; len++)
+for (len = mid; len < fir; len++)
 {
 _putchar(str[len]);
 }
