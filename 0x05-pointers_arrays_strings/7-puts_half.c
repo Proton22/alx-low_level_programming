@@ -15,9 +15,9 @@ if ( fir % 2 != 0)
 else
 {
 mid = fir / 2;
-for (mid = len; mid < len; mid++)
+for (len = mid; len < mid; len++)
 {
-_putchar(str[mid]);
+_putchar(str[len]);
 }
 }
 _putchar('\n');
