@@ -3,6 +3,7 @@
  * _strcat - print concantenate of two strings
  * @dest: a character
  * @src: a character
+ * Return: if executed properly
  */
 char *_strcat(char *dest, char *src)
 {
@@ -16,5 +17,5 @@ dest[i] = src[j];
 }
 dest[i] = '\0';
 _putchar(dest[i]);
-return (dest);
+return (0);
 }
