@@ -9,6 +9,7 @@ void reverse_array(int *a, int n)
 char tmp;
 int i, length1;
 length1 = 0;
+n = 0;
 while (a[length1] != '\0')
 length1++;
 n = length1 - 1;
