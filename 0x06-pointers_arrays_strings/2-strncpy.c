@@ -1,6 +1,6 @@
 #include "main.h"
 #include <string.h>
-/** 
+/**
  * _strncpy - print a copy of character
  * @dest: first param
  * @src: second param
