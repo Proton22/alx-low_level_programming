@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - print character
- * @z: a character
+ * @x: a character
  * Return: a character
  */
 char *string_toupper(char *x)
