@@ -2,14 +2,15 @@
 /**
  * leet - print encoded value
  * @x: a character
+ * Return: if executed properly
  */
 char *leet(char *w)
 {
 int x = 0;
 int l = 5;
 int b;
-char bt[5] = {'A', 'E', 'O', 'T', 'L'}
-char bts[5] = {'4', '3', '0', '7', '1'}
+char bt[5] = {'A', 'E', 'O', 'T', 'L'};
+char bts[5] = {'4', '3', '0', '7', '1'};
 while (w[x])
 {
 b = 0;
