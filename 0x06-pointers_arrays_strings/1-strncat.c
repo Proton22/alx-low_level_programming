@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - print a concantenate
+ * _strncat - print a concantenat
  * @dest: a string
  * @src: a character
  * @n: a word
