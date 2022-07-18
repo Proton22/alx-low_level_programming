@@ -11,6 +11,6 @@ char *_strchr(char *s, char c)
 int i, pt;
 i = strlen(s);
 while (i == '\0')
-pt = strchr(s, c);
+pt = strchr(i, c);
 return (pt);
 }
