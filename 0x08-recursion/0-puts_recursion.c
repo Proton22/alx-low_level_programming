@@ -8,6 +8,6 @@ void _puts_recursion(char *s)
 {
 int a;
 a = strlen(s);
-_putchar(s);
+_putchar(a);
 _putchar('\n');
 }
