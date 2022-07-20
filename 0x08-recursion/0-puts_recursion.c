@@ -6,8 +6,8 @@
  */
 void _puts_recursion(char *s)
 {
-int a;
-a = strlen(s);
-_putchar(a);
-_putchar('\n');
+if (s != '\0')
+{
+return (s);
+return (_puts_recursion(s + 1));
 }
