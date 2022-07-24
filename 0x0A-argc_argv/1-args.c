@@ -6,7 +6,7 @@
  * @argv: a character
  * Return: if executed properly 
  */
-int main(int argc, char  *argv[]);
+int main(int argc, char  *argv[])
 {
 int i;
 if (argc == 1)
