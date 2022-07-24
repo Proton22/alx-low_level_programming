@@ -4,7 +4,7 @@
  * main - Write a program that prints the number of arguments
  * @argc: a character
  * @argv: a character
- * Return: if executed properly 
+ * Return: if executed properly
  */
 int main(int argc, char *argv[])
 {
