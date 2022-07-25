@@ -8,9 +8,18 @@
  */
 int main(int argc, char *argv[])
 {
-int i, sum = 0;
-for (i = 0; i < argc; i++)
-printf("%s\n", argv[i]);
-sum = sum * argv[i];
+int i, j;
+if (argc == 1 || argc == 2)
+{
+printf("Error\n");
+return (1);
+}
+else
+{
+j = 1;
+for (i = 1; i < 3; i++)
+j *= atoi(argv[i]);
+printf("%d\n", j);
+}
 return (0);
 }
