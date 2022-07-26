@@ -12,7 +12,7 @@ unsigned int i;
 char *s;
 if (size == 0)
 return (NULL);
-if (s == 0)
+if (s == NULL)
 return (NULL);
 s = (char*)malloc(size * sizeof(char));
 for (i = 0; i < size; i++)
