@@ -9,11 +9,11 @@
 char *argstostr(int ac, char **av)
 {
 int k = 0, i = ac, j, sum = 0, l = 0;
-char *s;
+char *s = NULL;
 if (ac == 0 || av == NULL)
 return (NULL);
 while (ac--)
-sum += (len(av[ac]) + 1);
+sum += (mblen(av[ac]) + 1);
 s = (char *) malloc(sum + 1);
 if (s != NULL)
 {
