@@ -25,7 +25,7 @@ while (k < l)
 {
 if (k <= i)
 s[k] = s1[k];
-if (k > 1)
+if (k > i)
 {
 s[k] = s2[j];
 j++;
