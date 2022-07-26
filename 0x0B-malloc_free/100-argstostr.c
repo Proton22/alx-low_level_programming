@@ -13,7 +13,7 @@ char *s = NULL;
 if (ac == 0 || av == NULL)
 return (NULL);
 while (ac--)
-sum += (mblen(av[ac]) + 1);
+sum += (len(av[ac]) + 1);
 s = (char *) malloc(sum + 1);
 if (s != NULL)
 {
