@@ -15,7 +15,7 @@ return (NULL);
 a = malloc(height * sizeof(int *));
 if (a == NULL)
 {
-free (a);
+free(a);
 return (NULL);
 }
 for (i = 0; i < height; i++)
@@ -25,10 +25,10 @@ if (a[i] == NULL)
 {
 for (j = i; j > 0; j--)
 {
-free (a[j]);
-free (a);
-return (NULL);
+free(a[j]);
 }
+free(a);
+return (NULL);
 }
 }
 for (k = 0; k < height; k++)
