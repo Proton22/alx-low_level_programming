@@ -13,10 +13,10 @@ if (str == NULL)
 return (NULL);
 s = malloc(i * sizeof(char) + 1);
 if (s == NULL)
-return (NULL)
+return (NULL);
 while (j < i)
 {
-s[j] = str[j]
+s[j] = str[j];
 j++;
 }
 s[j] = '\0';
