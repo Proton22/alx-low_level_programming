@@ -57,10 +57,10 @@ return (NULL);
 return (dest);
 }
 /**
- * * check_for_digits - checks the arguments to ensure they are digits
- * * @av: pointer to arguments
- * * Return: 0 if digits, 1 if not
- * */
+ * check_for_digits - checks the arguments to ensure they are digits
+ * @av: pointer to arguments
+ * Return: 0 if digits, 1 if not
+ */
 int check_for_digits(char **av)
 {
 int i, j;
