@@ -1,7 +1,3 @@
-#include "main.h"
-#include <stdio.h>
+#ifndef SIZE
 #define SIZE 1024
-int main()
-{
-	printf("%d", SIZE);
-}
+#endif
