@@ -2,7 +2,7 @@
 #define _3_CALC_H_
 /**
  * struct op - struct op
- * @opp: The operator
+ * @op: The operator
  * @f: The function associated
  */
 typedef struct op
