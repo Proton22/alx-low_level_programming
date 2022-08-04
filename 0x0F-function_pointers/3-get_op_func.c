@@ -1,7 +1,7 @@
 #include "3-calc.h"
 #include <stdlib.h>
 /**
- * get_op_func - contain the function that selects the correct function to perform
+ * get_op_func - contain the function that selects the correct function
  * @s: a character
  * Return: if executed properly
  */
@@ -19,7 +19,7 @@ int i = 0;
 while (ops[i].op != NULL)
 {
 if (*s == *ops[i].op)
-return(ops[i].f);
+return (ops[i].f);
 i++;
 }
 return (NULL);
