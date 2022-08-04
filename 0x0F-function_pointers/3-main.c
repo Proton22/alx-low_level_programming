@@ -1,7 +1,6 @@
 #include <stdio.h> /* printf */
 #include <stdlib.h> /* atoi */
 #include "3-calc.h"
-
 /**
  * main - when user runs main,
  * user should give two integers and an operator and
