@@ -19,6 +19,7 @@ int (*f)(int, int);
 if (argc != 4)
 {
 printf("Error\n");
+exit(98);
 }
 /* convert user input to ints and point to correct operator function */
 n1 = atoi(argv[1]);

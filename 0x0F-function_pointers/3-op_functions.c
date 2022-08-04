@@ -1,4 +1,3 @@
-#include "3-calc.h"
 /**
  * op_add - write a function that adds
  * @a: first integer
@@ -7,9 +6,7 @@
  */
 int op_add(int a, int b)
 {
-int c;
-c = a + b;
-return (c);
+return (a + b);
 }
 /**
  * op_sub - write a function that adds
@@ -29,7 +26,7 @@ return (a - b);
  */
 int op_mul(int a, int b);
 {
-	return (a * b);
+return (a * b);
 }
 /**
  * op_div - write a function that divide
@@ -39,7 +36,7 @@ int op_mul(int a, int b);
  */
 int op_div(int a, int b);
 {
-	return(a / b);
+return(a / b);
 }
 /**
  * op_mod - write a function that get remainder
@@ -49,5 +46,5 @@ int op_div(int a, int b);
  */
 int op_mod(int a, int b);
 {
-	return(a % b);
+return(a % b);
 }

@@ -5,9 +5,9 @@
  * @s: a character
  * Return: if executed properly
  */
-int (*get_op_func(char *s))(int, int)
+int (*get_op_func(char *s))(int a, int b)
 {
- op_t ops[] = {
+op_t ops[] = {
 {"+", op_add},
 {"-", op_sub},
 {"*", op_mul},
@@ -18,8 +18,8 @@ int (*get_op_func(char *s))(int, int)
 int i = 0;
 while (ops[i].op != NULL)
 {
-if(*s == *ops[i].op)
-retorn(ops[i].f);
+if (*s == *ops[i].op)
+return(ops[i].f);
 i++;
 }
 return (NULL);
