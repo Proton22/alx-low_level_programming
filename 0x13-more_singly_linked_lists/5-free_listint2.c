@@ -2,6 +2,7 @@
 /**
  * free_listint2 - Write a function that frees a listint_t list
  * @head: a list of variables
+ * Return: if executed properly
  */
 void free_listint2(listint_t **head)
 {
@@ -12,7 +13,7 @@ while (*head)
 {
 temp = *head;
 temp = (*head)->next;
-free(*head);
+free(temp);
 }
 }
 else
