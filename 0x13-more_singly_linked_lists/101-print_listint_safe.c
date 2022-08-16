@@ -3,7 +3,7 @@
 /**
  * print_listint_safe - Write a function that prints a listint_t linked
  * @head: a list of variable
- * Returns: the number of nodes in the list
+ * Return: the number of nodes in the list
  */
 size_t print_listint_safe(const listint_t *head)
 {
