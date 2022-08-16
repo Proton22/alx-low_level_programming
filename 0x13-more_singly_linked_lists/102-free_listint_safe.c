@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * free_listint_safe - frees a listint_t list
+ * free_listint_safe - Write a function that frees a listint_t list
  * @h: data type listint_t double pointer of head
- * Return: the size of the list
+ * Return: if executed properly
  */
 size_t free_listint_safe(listint_t **h)
 {
