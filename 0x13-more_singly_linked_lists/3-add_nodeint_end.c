@@ -26,6 +26,7 @@ while (p->next != NULL)
 p = p->next;
 }
 p->next = temp;
+*head = temp;
 }
 return (temp);
 }
