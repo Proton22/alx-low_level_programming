@@ -11,14 +11,14 @@ if (head != NULL)
 {
 while (*head)
 {
-temp = *head;
+temp = (*head);
 *head = (*head)->next;
 free(temp);
 }
 }
 else
 {
-	return;
+return;
 }
 free(*head);
 head = 0;
