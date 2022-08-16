@@ -13,13 +13,13 @@ if (tep == NULL)
 {
 return (NULL);
 }
-tep->next = NULL;
 if (head == NULL)
 {
 *head = tep;
 }
 else
 {
+tep->n = n;
 tep->next = *head;
 *head = tep;
 }
