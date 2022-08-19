@@ -2,15 +2,14 @@
 /**
  * print_binary - Prints the binary representation of a number
  * @n: The number to representing in binary
- * Return: the converted number
  */
 void print_binary(unsigned long int n)
 {
-	if (n)
-	{
-		_print_binary(n >> 1);
-		_putchar('0' + (n & 1));
-	}
+if (n)
+{
+_print_binary(n >> 1);
+_putchar('0' + (n & 1));
+}
 }
 
 /**
@@ -19,8 +18,8 @@ void print_binary(unsigned long int n)
  */
 void print_binary(unsigned long int n)
 {
-	if (n)
-		_print_binary(n);
-	else
-		_putchar('0');
+if (n)
+_print_binary(n);
+else
+_putchar('0');
 }
