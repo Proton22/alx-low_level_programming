@@ -245,7 +245,7 @@ void elf_entry(const unsigned char *buffer, size_t bit_mode, int big_endian)
 		printf("%x", *buffer & 0xff);
 
 		while (--address_size > 0)
-			printf("%02x", *(--buffer) &0xff);
+			printf("%02x", *(--buffer) & 0xff);
 	}
 	printf("\n");
 }
