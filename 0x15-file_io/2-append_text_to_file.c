@@ -1,17 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/**
- * _strlen - a string of length
- * @c: a character string
- * Return: length of a string
- */
-int _strlen(char *c)
-{
-	int s = 0;
-	while (c[s])
-		s++;
-	return (s);
-}
+#include <stdlib.h>
 /**
  * append_text_to_file - Create a function that creates a file
  * @filename: a constant character
@@ -20,7 +9,8 @@ int _strlen(char *c)
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int fd;
+	int fd, i;
+	i = strlen(text_content);
 	if (filename == NULL)
 	{
 		return (-1);
@@ -32,7 +22,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 	if (text_content)
 	{
-	if(write(fd, text_content, _strlen(text_content)) == -1);
+	if(write(fd, text_content, i) == -1)
 	return (-1);
 	}
 	close(fd);
