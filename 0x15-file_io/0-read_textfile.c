@@ -23,7 +23,7 @@ if (fd == -1)
 return (0);
 }
 rd = read(fd, buff, letters);
-write(STDOUT_FILENO, buff, r);
+write(STDOUT_FILENO, buff, rd);
 free(buff);
 close(fd);
 return (rd);
